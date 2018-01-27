@@ -7,11 +7,17 @@ import org.scalatest.{BeforeAndAfter, FunSpec, Matchers}
 @RunWith(classOf[JUnitRunner])
 class ExampleSpec extends FunSpec with Matchers with BeforeAndAfter {
 
-  describe("A Stack") {
+  describe("Unit tests") {
 
-    it("should pop values in last-in-first-out order") {
+    it("should be successful") {
 
       1 shouldBe 1
+    }
+
+
+    it("should fail") {
+
+      1 shouldBe 2
     }
   }
 }
