@@ -79,7 +79,7 @@
           <!-- useManifestOnlyJar>false</useManifestOnlyJar -->
           <includes>
             <include>**/*Test.*</include>
-            <include>**/*Suite.*</include>
+            <include>**/*Spec.*</include>
           </includes>
         </configuration>
       </plugin>
