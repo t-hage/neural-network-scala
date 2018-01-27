@@ -13,11 +13,5 @@ class ExampleSpec extends FunSpec with Matchers with BeforeAndAfter {
 
       1 shouldBe 1
     }
-
-
-    it("should fail") {
-
-      1 shouldBe 2
-    }
   }
 }
